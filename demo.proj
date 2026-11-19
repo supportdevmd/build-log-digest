@@ -1,0 +1,6 @@
+<Project DefaultTargets="Demo">
+  <Target Name="Demo">
+    <Warning Code="DEMO1001" Text="Example build warning." />
+    <Error Code="DEMO1002" Text="Example build failure." />
+  </Target>
+</Project>
